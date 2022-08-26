@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{>commonheader}}
+  {{>pageheader}}  
+   {{>subnav}}    
+    <section>
+    <div class="container auto px-lg-5">
+         <h1 class="font-weight-bold" style= "color:#f4623a; margin-top:2em;"> How to make dance animations using Scratchjr </h1>
+     <div> 
+
+<p>This project uses Scratchjr to help you create animations of dances</p>
+<p>You should start by planning your project. </p>
+<p>It helps to make a plan on paper before you start working with the code blocks on the tablet</p>
+<p> Click on the links below to get more information about each step </p>
+
+{{#files}}
+        <div class="card">
+          <h4 class="card-title">&nbsp;</h4>
+          <p class="card-text">
+           <a href={{url}}> {{name}}</a>
+          </p>
+      <div class="card-footer">
+      </div>
+      </div>
+{{/files}}
+
+Extension activity
+
+{{#exten}}
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">&nbsp;</h4>
+          <p class="card-text">
+            <a href={{url}}> {{name}}</a>
+          </p>
+           <div class="card-footer">
+      </div>
+      </div>
+{{/exten}}
+
+
+<p>You can get more information about using Scratchjr by following the links below.</p>
+<p>The links go to another site and open a new browser window,</p>
+      <div class="card">
+        <div class="card-body">
+          <p class="card-text">
+            <a href='https://www.scratchjr.org/learn/interface' target='_blank'> Explore the Scratchjr interface</a>
+          </p>
+        </div>
+     </div>
+    <div class="card">
+        <div class="card-body">
+          <p class="card-text">
+            <a href='https://www.scratchjr.org/learn/paint' target='_blank'>How to draw things in Scratchjr</a>
+          </p>
+      </div>
+     </div>
+     <div class="card">
+        <div class="card-body">
+          <p class="card-text">
+            <a href='https://www.scratchjr.org/learn/blocks' target='_blank'> How to get things to move</a>
+          </p>
+        </div>
+     </div>
+     <div class="card">
+        <div class="card-body">
+          <p class="card-text">
+            <a href='https://www.scratchjr.org/learn/tips' target='_blank'> Hints and tips</a>
+          </p>
+      </div>
+     </div>
+
+    </section>
+    {{>commonfooter}}  
+    </body>
+</html>
