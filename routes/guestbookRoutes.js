@@ -15,6 +15,9 @@ router.get('/about', controller.display_about);
 router.get('/pilling', controller.display_pilling);
 router.get('/about', controller.display_about);
 router.get('/contact', controller.display_contact);
+router.get('/skipchange', controller.display_skipchange);
+router.get('/pasdebasque', controller.display_pasdebasque);
+router.get('/slipstep', controller.display_slipstep);
 
 router.use(function(req, res) {
         res.status(404);

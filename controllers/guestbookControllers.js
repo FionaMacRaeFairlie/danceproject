@@ -71,6 +71,18 @@ exports.display_contact = function (req, res) {
     res.render("contact");
   };
 
+exports.display_skipchange= function (req, res) {
+  res.render("skipchange");
+};
+exports.display_pasdebasque= function (req, res) {
+  res.render("pasdebasque");
+};
+exports.display_slipstep= function (req, res) {
+  res.render("slipstep");
+};
+
+
+
 exports.logout = function (req, res) {
   req.logout();
   res.redirect("/");
